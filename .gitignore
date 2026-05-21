@@ -8,6 +8,9 @@ _autosave-*
 *.tmp
 .history
 production
+*.kicad_pro.lck
+*.kicad_pcb.lck
+*.kicad_sch.lck
 
 # PCB manufacturing outputs (keep your source files, regenerate these if needed)
 *-selected.ger
