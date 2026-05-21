@@ -1826,12 +1826,6 @@
 		(uuid "3e998a8d-af38-43a9-899d-04c7a74447a8")
 	)
 	(junction
-		(at 201.93 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55a2b188-c713-436b-8c2e-cef3d8e44ad4")
-	)
-	(junction
 		(at 54.61 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1880,6 +1874,12 @@
 		(uuid "bc4be5d9-be5a-4b0e-b1dc-fbc93009d8fb")
 	)
 	(junction
+		(at 210.82 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfa53125-eb41-4216-ba72-fae7cf589ad4")
+	)
+	(junction
 		(at 67.31 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1917,7 +1917,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 54.61) (xy 193.04 54.61)
+			(xy 193.04 54.61) (xy 210.82 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1997,16 +1997,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 102.87) (xy 165.1 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1da1eea9-142d-4800-812c-f266dc743869")
-	)
-	(wire
-		(pts
 			(xy 96.52 87.63) (xy 106.68 87.63)
 		)
 		(stroke
@@ -2047,7 +2037,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 80.01) (xy 201.93 80.01)
+			(xy 193.04 80.01) (xy 210.82 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2114,16 +2104,6 @@
 			(type default)
 		)
 		(uuid "4f4392d2-169e-4c61-bd69-447f9bcc9af7")
-	)
-	(wire
-		(pts
-			(xy 195.58 59.69) (xy 193.04 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56cfe6cb-8bb4-4817-afba-d8aa5cab6178")
 	)
 	(wire
 		(pts
@@ -2197,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 102.87) (xy 165.1 82.55)
+			(xy 165.1 82.55) (xy 165.1 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2207,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 54.61) (xy 201.93 80.01)
+			(xy 210.82 54.61) (xy 210.82 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2347,6 +2327,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 115.57) (xy 129.54 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2618827-e8ea-48dc-9b54-f3e00f6b319b")
+	)
+	(wire
+		(pts
 			(xy 154.94 59.69) (xy 177.8 59.69)
 		)
 		(stroke
@@ -2407,16 +2397,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 85.09) (xy 193.04 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f090c003-a953-4c15-bbcc-f558a9a7e306")
-	)
-	(wire
-		(pts
 			(xy 74.93 90.17) (xy 67.31 90.17)
 		)
 		(stroke
@@ -2427,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 50.8) (xy 201.93 54.61)
+			(xy 210.82 50.8) (xy 210.82 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2456,16 +2436,6 @@
 		(uuid "095965c7-a634-4cc4-b0a4-f6baf078a723")
 	)
 	(label "Row 0"
-		(at 195.58 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18c0308a-1574-4cb7-88fe-230617c796a1")
-	)
-	(label "Row 0"
 		(at 74.93 77.47 0)
 		(effects
 			(font
@@ -2476,7 +2446,7 @@
 		(uuid "298cea26-ddcf-436f-8690-86d066b5f33e")
 	)
 	(label "Column 4"
-		(at 201.93 50.8 90)
+		(at 210.82 50.8 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2525,6 +2495,16 @@
 		)
 		(uuid "5a13c431-3081-45d5-86d1-28cf82581169")
 	)
+	(label "Row 0"
+		(at 198.12 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6aa119cb-5c9d-4518-9bcc-3a74ec22b889")
+	)
 	(label "Column 2"
 		(at 49.53 64.77 90)
 		(effects
@@ -2565,6 +2545,16 @@
 		)
 		(uuid "8626993a-aa21-4156-bea5-13ba373dac6b")
 	)
+	(label "Row 1"
+		(at 198.12 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f027981-5f55-4026-a9a4-1e0caad7ea69")
+	)
 	(label "Column 1"
 		(at 96.52 77.47 0)
 		(effects
@@ -2584,16 +2574,6 @@
 			(justify left bottom)
 		)
 		(uuid "98db0b2f-bd22-40ae-96de-334198ce1560")
-	)
-	(label "Row 1"
-		(at 195.58 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b012d4e8-8a8c-4e83-979b-4576bb94905f")
 	)
 	(label "Column 3"
 		(at 96.52 82.55 0)
@@ -2702,6 +2682,89 @@
 			(project "BigPad"
 				(path "/57af516c-98c7-406a-8dd4-07f33deb6b10"
 					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 195.58 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cda7584-1b7f-43f1-82ed-5ae57010a6ac")
+		(property "Reference" "D14"
+			(at 194.514 85.24 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" ""
+			(at 195.58 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+			(at 195.58 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "003a0abb-ec69-4bcf-85c1-4323e727cfa2")
+		)
+		(pin "2"
+			(uuid "9cbef012-70fc-497b-a05b-bedd747650fc")
+		)
+		(instances
+			(project "BigPad"
+				(path "/57af516c-98c7-406a-8dd4-07f33deb6b10"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2956,6 +3019,89 @@
 			(project "BigPad"
 				(path "/57af516c-98c7-406a-8dd4-07f33deb6b10"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 195.58 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a064d01-810b-4e0d-94c9-d95d61b487ff")
+		(property "Reference" "D13"
+			(at 194.514 59.84 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" ""
+			(at 195.58 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+			(at 195.58 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28580f24-373b-4723-abca-80dc429caf89")
+		)
+		(pin "2"
+			(uuid "80abf4e5-0bcb-4169-b18c-6be81c607bba")
+		)
+		(instances
+			(project "BigPad"
+				(path "/57af516c-98c7-406a-8dd4-07f33deb6b10"
+					(reference "D13")
 					(unit 1)
 				)
 			)
